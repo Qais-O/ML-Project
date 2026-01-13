@@ -99,5 +99,5 @@ ffmpeg-python
 ---
 
 ## Contact & License
-- Authors: Team 3 Qais, Bashar and Mahmoud)
+- Authors: Team 3 (Qais, Bashar and Mahmmoud)
 - License: MIT
