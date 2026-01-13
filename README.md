@@ -1,4 +1,4 @@
-# Speech Emotion Recognition — Experiments & Pipeline ✅
+# Speech Emotion Recognition — Experiments & Pipeline
 
 ## Overview
 
@@ -57,7 +57,7 @@ ffmpeg-python
 
 ---
 
-## Notebooks & Key Functions ✨
+## Notebooks & Key Functions
 
 ### `experiments.ipynb`
 - Feature extraction pipeline using MFCCs (`extract_mfcc_features`) and dataset scanning across folder-based datasets and CSVs.
@@ -84,7 +84,7 @@ ffmpeg-python
 
 ---
 
-## Usage Tips & Notes ⚠️
+## Usage Tips & Notes
 - Check dataset paths: update `DATASET_PATHS` and `CSV_DATASETS` (mappings) before running scanning functions.
 - Small spectrogram dimensions can cause SpecAugment masking issues; the notebooks include safety checks to avoid this.
 - For macOS M1/M2, some architectures were adjusted (e.g., BatchNormalization removed in a CNN variant) to avoid shape incompatibility issues.
@@ -92,7 +92,7 @@ ffmpeg-python
 
 ---
 
-## Reproducibility & Tips for Running Experiments ✅
+## Reproducibility & Tips for Running Experiments
 - Use a fixed random seed where applicable and the same `random_state` when splitting data.
 - Training callbacks (EarlyStopping, ReduceLROnPlateau, ModelCheckpoint) are configured in the notebooks — tune patience and learning rate schedule as needed.
 
